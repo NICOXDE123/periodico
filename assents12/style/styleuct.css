@@ -1,0 +1,83 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.header {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 3px solid #000;
+}
+.header h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+}
+.nav {
+    background: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+.container {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-news {
+    width: 100%;
+    background: white;
+    padding: 20px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    border-left: 5px solid #000;
+}
+.main-news img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.main-news h2 {
+    font-size: 32px;
+    color: #000;
+}
+.news-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.article {
+    background: white;
+    padding: 15px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    flex: 1;
+    min-width: 300px;
+    border-left: 3px solid #555;
+}
+.article img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.article h3 {
+    font-size: 20px;
+    color: #333;
+}
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 14px;
+}
